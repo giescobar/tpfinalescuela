@@ -1,0 +1,232 @@
+.body {
+    font-family:sans-serif;
+}
+  
+  
+.container-header {
+  background-color: rgb(241, 211, 228);
+  background-image: url("https://i.pinimg.com/564x/93/b2/f9/93b2f9970a77f975fc53ba3b150dc97d.jpg");
+  width: 100%;
+  text-align: center;
+  padding: 90px 20px 0;
+}
+
+
+.menu {
+  background-color: rgb(42, 20, 139);
+  height: 45px;
+  position: fixed;
+  width: 100%; 
+  top: 0;
+  left: 0; 
+}
+  
+.nav-menu {
+  display: flex;
+  margin-right: 8px;
+  list-style: none;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: bold;
+  max-width: 992px;
+  margin: o auto;
+}
+  
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+  
+.nav-menu-item {
+    font-size: auto;
+    margin: 0 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: max-content;
+}
+  
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+    background-color:rgba(43, 124, 245, 0.664); 
+    transition: 0.5s;
+}
+  
+.button-nav {
+    color: white; 
+    border: none; 
+    font-size: 30px;
+    padding: 0 20px;
+    display: none; 
+    cursor: pointer;
+}
+
+
+.total-container {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(86, 127, 241, 0.664);
+  border-radius: 3px;
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content:space-around;
+}
+
+
+.card1, .card2, .card3 {
+  background-color: rgb(42, 20, 139);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  height: 25%;
+  width:min-content;
+  margin-top: 8px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.link-descarga {
+  color: aqua;
+}
+.ofped {
+  color:rgb(14, 167, 154) 
+}
+
+.card4, .descarga, .card-mapa {
+  display: grid;
+  grid-template-columns: 3fr 30% 1fr;
+  background-color:rgb(42, 20, 139);
+  margin-top: 5px;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+
+
+.descarga, .contacto {
+  color: rgb(237, 236, 245);
+  background-color: rgb(79, 79, 160);
+  /*text-decoration: none;*/
+  font-weight: bold;
+  height: fit-content;
+}
+
+
+
+.imag {
+  border-radius: 80px;
+}
+
+
+
+
+/*aside*/
+
+
+
+.container-aside {
+  background-color:rgb(42, 20, 139) ; 
+  width: max-content;
+  margin: 0 auto;
+  color: white;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+
+
+table {
+  border-radius: 3px;
+  border: solid rgb(19, 19, 51);
+  width: max-content;
+  height: fit-content;
+}
+
+th {
+  background-color:rgb(4, 58, 58);
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td {
+  background-color: rgb(147, 147, 229);
+  color:rgb(237, 236, 245);
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  border:solid rgb(19, 19, 51);
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6 {
+  width: 80px;
+  height: 80px;
+  align-content: center;  
+}
+
+
+
+
+.subir {
+  position: fixed; 
+  top: 70%;
+  left:80%;
+  background-color: rgba(86, 127, 241, 0.664);
+  border-radius: 3px;
+  align-content: center;
+  border: solid rgb(33, 3, 102);
+  text-align: center;
+}
+
+/*footer*/
+
+.box-footer {
+  background-color: rgb(136, 158, 27);
+  justify-items: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.container-footer {
+justify-content: center;
+margin: 10px;
+border-radius: 3px;
+}
+
+.box-principal {
+  background-color: rgb(33, 3, 102);
+  text-align: center;
+  line-height: 30px;
+  text-decoration: wavy;
+  color:aqua;
+  height: 30px;
+}
+
+
+.hr, .dias {
+  background-color: rgb(39, 39, 122);
+  align-content: center;
+  color:rgb(200, 230, 238);
+  font-family: sans-serif;
+  font-size: 13px;
+  
+}
+
+form {
+  background-color: rgb(159, 181, 230);
+  border-radius: 5px;
+  border: solid rgb(16, 16, 73);
+}
